@@ -11,6 +11,9 @@ const Nav = ()=> {
                         <Link to="/" className="nav-link">Shop</Link>
                     </li>
                     <li className="nav-item">
+                        <Link to="http://mohammadasadiyan.ir" className="nav-link">Contact Us</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link to="/cart" className="nav-link">
                             <FontAwesomeIcon icon={faShoppingCart}/>
                         </Link>

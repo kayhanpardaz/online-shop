@@ -1,0 +1,15 @@
+.card-data {
+    border: 1px solid #000;
+    margin: 1.65vw;
+    border-radius: 14px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+@media (max-width: 480px) {
+    .card-data {
+        
+    }
+}

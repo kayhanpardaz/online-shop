@@ -1,13 +1,13 @@
 import { useState, useContext } from "react";
 import { ShopContext } from "../../context/shopContext";
-
+import './product.css'
 const Product = (props)=> {
     const {id, productName, productImage, price} = props.data;
     const {cartItems, addToCart, removeFromCart} = useContext(ShopContext);
 
     const isInCart = cartItems?.some((item)=> item.id === id)
     return (
-        <div className="col-3">
+        <div className="col-md-2 card-data" >
             <img src={productImage} className="w-100"/>
             <h5>{productName}</h5>
             <p>price: {price}$</p>

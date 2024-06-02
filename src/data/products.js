@@ -1,37 +1,38 @@
-import mobile from "../assets/mobile.jpg"
-import laptop from "../assets/laptop.jpg"
-import camera from "../assets/camera.png"
-import denim from "../assets/denim.jpg"
-import shoes from "../assets/shoes.jpg"
+// import mobile from "../assets/mobile.jpg"
+// import laptop from "../assets/laptop.jpg"
+// import camera from "../assets/camera.png"
+// import denim from "../assets/denim.jpg"
+// import shoes from "../assets/shoes.jpg"
+import noone from "../assets/noone.jpeg";
 export const PRODUCTS = [
     {
         id : 1,
-        productName: 'Mobile',
+        productName: 'نون',
         price: 1000,
-        productImage : mobile
+        productImage : noone
     },
     {
         id : 2,
-        productName: 'laptop',
+        productName: 'نون',
         price: 1000,
-        productImage : laptop
+        productImage : noone
     },
     {
         id : 3,
-        productName: 'camera',
+        productName: 'نون',
         price: 1000,
-        productImage : camera
+        productImage : noone
     },
     {
         id : 4,
-        productName: 'denim',
+        productName: 'نون',
         price: 1000,
-        productImage : denim
+        productImage : noone
     },
     {
         id : 5,
-        productName: 'shoes',
+        productName: 'نون',
         price: 1000,
-        productImage : shoes
+        productImage : noone
     },
 ]
